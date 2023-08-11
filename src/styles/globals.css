@@ -18,3 +18,7 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.card {
+  @apply text-center shadow-xl p-10 rounded-xl mt-10 bg-gradient-to-r from-cyan-500 to-blue-500
+}
