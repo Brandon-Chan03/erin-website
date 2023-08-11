@@ -1,13 +1,12 @@
 import Image from "next/image";
-import {BsFillMoonStarsFill} from "react-icons/bs";
+import {BsFillMoonStarsFill, BsFacebook, BsLinkedin} from "react-icons/bs";
 
 export default function Home() {
   return (
     <div>
-      <main className="bg-white px-10">
-        <section className="min-h-screen">
+      <header className="px-10">
           {/* Nav Bar */}
-          <nav className="py-10 mb-12 flex justify-between">
+        <nav className="py-10 mb-12 flex justify-between">
             <div className="flex">
               <Image 
                 src="/logo.svg"
@@ -23,8 +22,14 @@ export default function Home() {
               <li><a href="#" className="bg-red-500 text-white px-4 py-2 rounded-md ml-8">Resume</a></li>
             </ul>
           </nav>
-          
-        </section>
+      </header>
+      <main className="bg-white px-10">
+        <div>
+          <h2>Erin Redfern</h2>
+          <h3>Cosmetologist</h3>
+          <p>I'm currently a cosmetology student at College of Hair Design in Lincoln, NE. 
+            I'm located on our East campus at 9000 Andermatt Drive. </p>
+        </div>   
       </main>
     </div>
   )
