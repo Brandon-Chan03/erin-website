@@ -9,7 +9,7 @@ export default function Home() {
         {/* Nav Bar */}
         <nav className="py-10 mb-12 flex justify-between">
           <div className="flex">
-            <Image src="/logo.svg" width={40} height={40} />
+            <Image src="/logo.svg" width={40} height={40} alt="logo"/>
             <h1 className="bg-clip-text text-transparent bg-gradient-to-r from-[#F7A2A1] to-[#FFED00] bold text-3xl ml-2 my-auto">Erin</h1>
           </div>
           <ul className="flex items-center">
@@ -30,8 +30,8 @@ export default function Home() {
             <h2 className="text-5xl py-2 text-primary">Erin Redfern</h2>
             <h3 className="text-2xl py-2 text-secondary">Cosmetologist</h3>
             <p className="text-md py-5 leading-8">
-              I'm currently a cosmetology student at College of Hair Design in
-              Lincoln, NE. I'm located on our East campus at 9000 Andermatt Drive.{" "}
+              I&apos;m currently a cosmetology student at College of Hair Design in
+              Lincoln, NE. I&apos;m located on our East campus at 9000 Andermatt Drive.{" "}
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 text-primary pb-8">
