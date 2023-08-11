@@ -9,6 +9,11 @@ module.exports = {
     extend: {
       backgroundImage: {
       },
+      colors: {
+        primary: "#F7A2A1",
+        secondary: "#FABB6B",
+        background: "#D6D6D6"
+      }
     },
   },
   plugins: [],
