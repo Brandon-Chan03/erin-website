@@ -20,5 +20,6 @@ a {
 }
 
 .card {
-  @apply text-center shadow-xl p-10 rounded-xl mt-10 bg-gradient-to-r from-cyan-500 to-blue-500
+  @apply text-center mb-10 rounded-xl bg-gradient-to-r from-[#F7A2A1] to-[#FFED00] smallPhone:w-5/6 sm:w-3/5 md:w-2/5
 }
+
